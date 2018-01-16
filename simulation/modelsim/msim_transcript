@@ -1,0 +1,639 @@
+# Reading E:/Quartus_Installed/modelsim_ase/tcl/vsim/pref.tcl
+# do uart_implementation_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work gate_work 
+# Copying E:/Quartus_Installed/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:/Quartus_Installed/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {uart_implementation_7_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:10:05 on Oct 18,2017
+# vcom -reportprogress 300 -93 -work work uart_implementation_7_1200mv_85c_slow.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity uart_implementation
+# -- Compiling architecture structure of uart_implementation
+# End time: 16:10:06 on Oct 18,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim gate_work.uart_implementation
+# vsim -gui "+altera" -l msim_transcript -do "uart_implementation_run_msim_gate_vhdl.do" 
+# Start time: 16:10:16 on Oct 18,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading gate_work.uart_implementation(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading altera.dffeas(vital_dffeas)
+# ** Warning: Design size of 19460 statements exceeds ModelSim Altera Starter recommended capacity.
+# Expect performance to be adversely affected.
+vsim gate_work.uart_implementation
+# vsim 
+# Start time: 16:10:23 on Oct 18,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading gate_work.uart_implementation(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading altera.dffeas(vital_dffeas)
+# ** Warning: Design size of 19460 statements exceeds ModelSim Altera Starter recommended capacity.
+# Expect performance to be adversely affected.
+run -all
+# Break key hit
+add wave sim:/uart_implementation/*
+run -all
+add wave -position insertpoint \
+sim:/uart_implementation/LEDR \
+sim:/uart_implementation/SW \
+sim:/uart_implementation/LEDG \
+sim:/uart_implementation/key1 \
+sim:/uart_implementation/key2 \
+sim:/uart_implementation/r_Tx_Serial \
+sim:/uart_implementation/r_Rx_Serial \
+sim:/uart_implementation/gnd \
+sim:/uart_implementation/vcc \
+sim:/uart_implementation/unknown \
+sim:/uart_implementation/devoe \
+sim:/uart_implementation/devclrn \
+sim:/uart_implementation/devpor \
+sim:/uart_implementation/ww_devoe \
+sim:/uart_implementation/ww_devclrn \
+sim:/uart_implementation/ww_devpor \
+sim:/uart_implementation/ww_LEDR \
+sim:/uart_implementation/ww_SW \
+sim:/uart_implementation/ww_LEDG \
+sim:/uart_implementation/ww_key1 \
+sim:/uart_implementation/ww_key2 \
+sim:/uart_implementation/ww_r_Tx_Serial \
+sim:/uart_implementation/ww_r_Rx_Serial \
+sim:/uart_implementation/\\_~1clkctrl_INCLK_bus\\ \
+sim:/uart_implementation/\\key2~input_o\\ \
+sim:/uart_implementation/\\LEDR\[0\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[1\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[2\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[3\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[4\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[5\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[6\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[7\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[0\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[1\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[2\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[3\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[4\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[5\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[6\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[7\]~output_o\\ \
+sim:/uart_implementation/\\r_Tx_Serial~output_o\\ \
+sim:/uart_implementation/\\SW\[0\]~input_o\\ \
+sim:/uart_implementation/\\SW\[1\]~input_o\\ \
+sim:/uart_implementation/\\SW\[2\]~input_o\\ \
+sim:/uart_implementation/\\SW\[3\]~input_o\\ \
+sim:/uart_implementation/\\SW\[4\]~input_o\\ \
+sim:/uart_implementation/\\SW\[5\]~input_o\\ \
+sim:/uart_implementation/\\SW\[6\]~input_o\\ \
+sim:/uart_implementation/\\SW\[7\]~input_o\\ \
+sim:/uart_implementation/\\_~1_combout\\ \
+sim:/uart_implementation/\\_~1clkctrl_outclk\\ \
+sim:/uart_implementation/\\r_Rx_Serial~input_o\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Data_R~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Data_R~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Data~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~8_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[4\]~17\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[5\]~18_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Equal0~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector13~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Equal0~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector13~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_RX_START_BIT~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector14~3_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~26_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[5\]~19\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[6\]~20_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[6\]~21\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[7\]~22_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|LessThan1~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector14~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector14~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector14~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_RX_DATA_BITS~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector9~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector9~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector9~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~8_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_RX_STOP_BIT~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_RX_STOP_BIT~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~24_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~25_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~9\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[1\]~10_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[1\]~11\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[2\]~12_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[2\]~13\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[3\]~14_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[3\]~15\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[4\]~16_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|LessThan1~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|LessThan1~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main~9_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_CLEANUP~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector12~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.000~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector11~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector11~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector10~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector10~3_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[0\]~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[1\]~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~3_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[2\]~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~4_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[3\]~3_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~5_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[4\]~4_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~6_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[5\]~5_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~7_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[6\]~6_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[7\]~7_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[0\]~8_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|LessThan1~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[6\]~22\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[7\]~23_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|LessThan1~3_combout\\ \
+sim:/uart_implementation/\\key1~input_o\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector14~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.000~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector12~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector12~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector11~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector11~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_STOP_BIT~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_STOP_BIT~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_STOP_BIT~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main~9_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_CLEANUP~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[7\]~12_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[0\]~9\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[1\]~10_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[1\]~11\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[2\]~13_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[2\]~14\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[3\]~15_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[3\]~16\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[4\]~17_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[4\]~18\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[5\]~19_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[5\]~20\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[6\]~21_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|LessThan1~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|LessThan1~2_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector15~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_START_BIT~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector16~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_DATA_BITS~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector10~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector10~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector10~2_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector15~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Mux0~2_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Mux0~3_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector0~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Mux0~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Tx_Data\[6\]~feeder_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Mux0~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector0~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector0~2_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|o_Tx_Serial~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Bit_Index\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Bit_Index\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Tx_Data\\ \
+sim:/uart_implementation/\\UART_TX_INST|ALT_INV_r_SM_Main.s_CLEANUP~q\\ 
+add wave -position insertpoint \
+sim:/uart_implementation/LEDR \
+sim:/uart_implementation/SW \
+sim:/uart_implementation/LEDG \
+sim:/uart_implementation/key1 \
+sim:/uart_implementation/key2 \
+sim:/uart_implementation/r_Tx_Serial \
+sim:/uart_implementation/r_Rx_Serial \
+sim:/uart_implementation/gnd \
+sim:/uart_implementation/vcc \
+sim:/uart_implementation/unknown \
+sim:/uart_implementation/devoe \
+sim:/uart_implementation/devclrn \
+sim:/uart_implementation/devpor \
+sim:/uart_implementation/ww_devoe \
+sim:/uart_implementation/ww_devclrn \
+sim:/uart_implementation/ww_devpor \
+sim:/uart_implementation/ww_LEDR \
+sim:/uart_implementation/ww_SW \
+sim:/uart_implementation/ww_LEDG \
+sim:/uart_implementation/ww_key1 \
+sim:/uart_implementation/ww_key2 \
+sim:/uart_implementation/ww_r_Tx_Serial \
+sim:/uart_implementation/ww_r_Rx_Serial \
+sim:/uart_implementation/\\_~1clkctrl_INCLK_bus\\ \
+sim:/uart_implementation/\\key2~input_o\\ \
+sim:/uart_implementation/\\LEDR\[0\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[1\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[2\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[3\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[4\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[5\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[6\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[7\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[0\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[1\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[2\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[3\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[4\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[5\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[6\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[7\]~output_o\\ \
+sim:/uart_implementation/\\r_Tx_Serial~output_o\\ \
+sim:/uart_implementation/\\SW\[0\]~input_o\\ \
+sim:/uart_implementation/\\SW\[1\]~input_o\\ \
+sim:/uart_implementation/\\SW\[2\]~input_o\\ \
+sim:/uart_implementation/\\SW\[3\]~input_o\\ \
+sim:/uart_implementation/\\SW\[4\]~input_o\\ \
+sim:/uart_implementation/\\SW\[5\]~input_o\\ \
+sim:/uart_implementation/\\SW\[6\]~input_o\\ \
+sim:/uart_implementation/\\SW\[7\]~input_o\\ \
+sim:/uart_implementation/\\_~1_combout\\ \
+sim:/uart_implementation/\\_~1clkctrl_outclk\\ \
+sim:/uart_implementation/\\r_Rx_Serial~input_o\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Data_R~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Data_R~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Data~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~8_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[4\]~17\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[5\]~18_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Equal0~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector13~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Equal0~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector13~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_RX_START_BIT~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector14~3_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~26_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[5\]~19\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[6\]~20_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[6\]~21\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[7\]~22_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|LessThan1~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector14~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector14~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector14~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_RX_DATA_BITS~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector9~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector9~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector9~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~8_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_RX_STOP_BIT~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_RX_STOP_BIT~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~24_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~25_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~9\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[1\]~10_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[1\]~11\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[2\]~12_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[2\]~13\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[3\]~14_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[3\]~15\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[4\]~16_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|LessThan1~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|LessThan1~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main~9_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_CLEANUP~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector12~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.000~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector11~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector11~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector10~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector10~3_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[0\]~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[1\]~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~3_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[2\]~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~4_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[3\]~3_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~5_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[4\]~4_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~6_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[5\]~5_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~7_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[6\]~6_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[7\]~7_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[0\]~8_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|LessThan1~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[6\]~22\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[7\]~23_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|LessThan1~3_combout\\ \
+sim:/uart_implementation/\\key1~input_o\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector14~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.000~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector12~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector12~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector11~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector11~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_STOP_BIT~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_STOP_BIT~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_STOP_BIT~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main~9_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_CLEANUP~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[7\]~12_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[0\]~9\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[1\]~10_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[1\]~11\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[2\]~13_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[2\]~14\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[3\]~15_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[3\]~16\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[4\]~17_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[4\]~18\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[5\]~19_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[5\]~20\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[6\]~21_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|LessThan1~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|LessThan1~2_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector15~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_START_BIT~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector16~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_DATA_BITS~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector10~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector10~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector10~2_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector15~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Mux0~2_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Mux0~3_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector0~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Mux0~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Tx_Data\[6\]~feeder_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Mux0~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector0~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector0~2_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|o_Tx_Serial~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Bit_Index\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Bit_Index\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Tx_Data\\ \
+sim:/uart_implementation/\\UART_TX_INST|ALT_INV_r_SM_Main.s_CLEANUP~q\\ 
+add wave -position insertpoint \
+sim:/uart_implementation/LEDG 
+add wave -position insertpoint \
+sim:/uart_implementation/LEDG 
+add wave -position insertpoint \
+sim:/uart_implementation/LEDG 
+add wave -position insertpoint \
+sim:/uart_implementation/LEDG 
+add wave -position insertpoint \
+sim:/uart_implementation/LEDG 
+add wave -position insertpoint \
+sim:/uart_implementation/LEDG 
+add wave -position insertpoint \
+sim:/uart_implementation/LEDG 
+add wave -position insertpoint \
+sim:/uart_implementation/LEDG 
+# Load canceled
+add wave -position insertpoint  \
+sim:/uart_implementation/LEDR \
+sim:/uart_implementation/SW \
+sim:/uart_implementation/LEDG \
+sim:/uart_implementation/key1 \
+sim:/uart_implementation/key2 \
+sim:/uart_implementation/r_Tx_Serial \
+sim:/uart_implementation/r_Rx_Serial \
+sim:/uart_implementation/gnd \
+sim:/uart_implementation/vcc \
+sim:/uart_implementation/unknown \
+sim:/uart_implementation/devoe \
+sim:/uart_implementation/devclrn \
+sim:/uart_implementation/devpor \
+sim:/uart_implementation/ww_devoe \
+sim:/uart_implementation/ww_devclrn \
+sim:/uart_implementation/ww_devpor \
+sim:/uart_implementation/ww_LEDR \
+sim:/uart_implementation/ww_SW \
+sim:/uart_implementation/ww_LEDG \
+sim:/uart_implementation/ww_key1 \
+sim:/uart_implementation/ww_key2 \
+sim:/uart_implementation/ww_r_Tx_Serial \
+sim:/uart_implementation/ww_r_Rx_Serial \
+sim:/uart_implementation/\\_~1clkctrl_INCLK_bus\\ \
+sim:/uart_implementation/\\key2~input_o\\ \
+sim:/uart_implementation/\\LEDR\[0\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[1\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[2\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[3\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[4\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[5\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[6\]~output_o\\ \
+sim:/uart_implementation/\\LEDR\[7\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[0\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[1\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[2\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[3\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[4\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[5\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[6\]~output_o\\ \
+sim:/uart_implementation/\\LEDG\[7\]~output_o\\ \
+sim:/uart_implementation/\\r_Tx_Serial~output_o\\ \
+sim:/uart_implementation/\\SW\[0\]~input_o\\ \
+sim:/uart_implementation/\\SW\[1\]~input_o\\ \
+sim:/uart_implementation/\\SW\[2\]~input_o\\ \
+sim:/uart_implementation/\\SW\[3\]~input_o\\ \
+sim:/uart_implementation/\\SW\[4\]~input_o\\ \
+sim:/uart_implementation/\\SW\[5\]~input_o\\ \
+sim:/uart_implementation/\\SW\[6\]~input_o\\ \
+sim:/uart_implementation/\\SW\[7\]~input_o\\ \
+sim:/uart_implementation/\\_~1_combout\\ \
+sim:/uart_implementation/\\_~1clkctrl_outclk\\ \
+sim:/uart_implementation/\\r_Rx_Serial~input_o\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Data_R~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Data_R~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Data~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~8_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[4\]~17\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[5\]~18_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Equal0~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector13~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Equal0~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector13~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_RX_START_BIT~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector14~3_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~26_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[5\]~19\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[6\]~20_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[6\]~21\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[7\]~22_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|LessThan1~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector14~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector14~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector14~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_RX_DATA_BITS~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector9~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector9~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector9~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~8_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_RX_STOP_BIT~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_RX_STOP_BIT~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~24_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~25_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[0\]~9\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[1\]~10_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[1\]~11\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[2\]~12_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[2\]~13\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[3\]~14_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[3\]~15\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\[4\]~16_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|LessThan1~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|LessThan1~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main~9_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.s_CLEANUP~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector12~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_SM_Main.000~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector11~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector11~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector10~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Selector10~3_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[0\]~0_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[1\]~1_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~3_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[2\]~2_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~4_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[3\]~3_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~5_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[4\]~4_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~6_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[5\]~5_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|Decoder0~7_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[6\]~6_combout\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\[7\]~7_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[0\]~8_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|LessThan1~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[6\]~22\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[7\]~23_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|LessThan1~3_combout\\ \
+sim:/uart_implementation/\\key1~input_o\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector14~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.000~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector12~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector12~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector11~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector11~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_STOP_BIT~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_STOP_BIT~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_STOP_BIT~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main~9_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_CLEANUP~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[7\]~12_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[0\]~9\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[1\]~10_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[1\]~11\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[2\]~13_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[2\]~14\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[3\]~15_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[3\]~16\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[4\]~17_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[4\]~18\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[5\]~19_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[5\]~20\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\[6\]~21_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|LessThan1~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|LessThan1~2_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector15~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_START_BIT~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector16~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_SM_Main.s_TX_DATA_BITS~q\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector10~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector10~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector10~2_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector15~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Mux0~2_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Mux0~3_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector0~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Mux0~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Tx_Data\[6\]~feeder_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Mux0~1_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector0~0_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|Selector0~2_combout\\ \
+sim:/uart_implementation/\\UART_TX_INST|o_Tx_Serial~q\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Clock_Count\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Clock_Count\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Bit_Index\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Rx_Byte\\ \
+sim:/uart_implementation/\\UART_RX_INST|r_Bit_Index\\ \
+sim:/uart_implementation/\\UART_TX_INST|r_Tx_Data\\ \
+sim:/uart_implementation/\\UART_TX_INST|ALT_INV_r_SM_Main.s_CLEANUP~q\\
+run
+# Break key hit
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+# Break key hit
+# Break key hit
+run
+run -continue
+run
+run
+run
+# End time: 16:25:19 on Oct 18,2017, Elapsed time: 0:14:56
+# Errors: 1, Warnings: 1

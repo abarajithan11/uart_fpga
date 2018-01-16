@@ -1,0 +1,66 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\HP b\Desktop\FPGA Work Ashwin\UART\simulation\modelsim
+vuart_implementation
+I:Wc`e=jFmi0mBhf;SE@L70
+VN=mZ01WCI<735En`Dk:=A0
+Z1 dC:\Users\HP b\Desktop\FPGA Work Ashwin\UART\simulation\modelsim
+w1507733836
+8C:/Users/HP b/Desktop/FPGA Work Ashwin/UART/uart_implementation.v
+FC:/Users/HP b/Desktop/FPGA Work Ashwin/UART/uart_implementation.v
+L0 1
+Z2 OV;L;6.6c;45
+r1
+31
+o-vlog01compat -work work -O0
+!s100 3]6UcgiGk4V[5Zz4mOz802
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work {+incdir+C:/Users/HP b/Desktop/FPGA Work Ashwin/UART} -O0
+vuart_rx
+!s100 ;fAnC`:n6^UMZ7=;9Tf^>3
+I7`aQcmaBJN8z]Ndic^FE@3
+VZE^6983DDYH^<?`<H9UEn1
+R1
+Z3 w1507741114
+Z4 8C:/Users/HP b/Desktop/FPGA Work Ashwin/UART/uart.v
+Z5 FC:/Users/HP b/Desktop/FPGA Work Ashwin/UART/uart.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s101 -O0
+Z6 o-work work -O0
+vuart_tb
+!s100 O8?:5@jKdke8zojI`:^]=3
+I[O:7ZI2C]<Y3a]ZO_Z_1[2
+V<0cZ_enF:QzF1PH5eZ@__3
+R1
+R3
+R4
+R5
+L0 283
+R2
+r1
+!s85 0
+31
+!s101 -O0
+R6
+vuart_tx
+!s100 jdmUXKAz44M1>;8=zzENf2
+I68XeVk@B5QC0953^XTP3Q1
+Vo[LEQP@8@@cDfOM>:k<^`2
+R1
+R3
+R4
+R5
+L0 144
+R2
+r1
+!s85 0
+31
+!s101 -O0
+R6
