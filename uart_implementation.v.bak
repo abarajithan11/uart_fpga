@@ -1,0 +1,5 @@
+module uart_implementation(LEDR, SW);
+output [0:0] LEDR;
+input [2:0] SW;
+//mux my_mux(.f(LEDR[0]), .in0(SW[0]), .in1(SW[1]), .sel(SW[2]));
+endmodule
